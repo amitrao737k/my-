@@ -1,0 +1,81 @@
+.blue-text {
+    color: orange;
+}
+
+.d-flex {
+    display: block;
+    margin: 50px auto;
+
+}
+
+.text-container {
+     
+        text-align: center;
+        font-family: Arial, sans-serif;
+      
+}
+
+.contact-button {
+    background: linear-gradient(to right, #88e2d6, #62c8a5); /* Gradient background */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 25px; /* Rounded corners */
+    padding: 12px 24px; /* Button padding */
+    font-size: 18px; /* Text size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline (for links) */
+    display: inline-block; /* Inline-block for proper sizing */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.2s; /* Smooth hover effect */
+  }
+
+  .contact-button:hover {
+    transform: scale(1.05); /* Slight zoom-in effect on hover */
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Ensure the body takes full height */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Makes body span the full viewport height */
+  }
+
+  /* The content before the footer */
+  .content {
+    flex: 1; /* Pushes footer to the bottom */
+  }
+
+  footer {
+    background-color: #78c1c1; /* Light teal background */
+    color: white; /* Text color */
+    text-align: center; /* Center-align the text */
+    padding: 20px 10px; /* Padding for spacing */
+    font-family: Arial, sans-serif;
+    width: 100%; /* Full width */
+  }
+
+  .footer-links {
+    margin-bottom: 10px; /* Space below the links */
+  }
+
+  .footer-links a {
+    color: #507f7f; /* Darker teal for links */
+    margin: 0 15px; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .footer-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+  .copyright {
+    font-size: 14px; /* Smaller font size */
+  }
